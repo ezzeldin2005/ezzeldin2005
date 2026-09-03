@@ -6,15 +6,16 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ezzeldin-omar-a65302291)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ezzeldinomar7@gmail.com)
 [![Location](https://img.shields.io/badge/Cairo,%20Egypt-gray?style=flat-square&logo=googlemaps&logoColor=white)](#)
-
+[![Protifolio](https://img.shields.io/badge/Protifolio-EA4335?style=flat-square&logoColor=white)](https://ezzeldin2005.github.io/portfolio/)
 </div>
 
 ---
 
 ## 👋 About Me
 
-I'm a **third-year Information Systems student** at Cairo University (GPA: 3.5/4.0), specializing in full-stack web development with the **Microsoft .NET ecosystem**. I build production-grade web applications using clean architecture patterns and care deeply about maintainable, scalable code.
+I'm a **Senior year Information Systems student** at Cairo University (GPA: 3.51/4.0), specializing in full-stack web development with the **Microsoft .NET ecosystem**. I build production-grade web applications using clean architecture patterns and care deeply about maintainable, scalable code.
 
+- 🏦 Completed a **Software Engineering InternShip** at Abu Dhabi Islamic Bank (ADIB) – Egypt
 - 🏦 Completed a **Core Banking Internship** at Abu Dhabi Islamic Bank (ADIB) – Egypt
 - 🎓 Certified through the **Digital Egypt Pioneers Initiative (DEPI)** — Ministry of MCIT
 - 🏗️ Passionate about **clean architecture**: Repository Pattern, 3-Tier, SOLID Principles
@@ -49,6 +50,28 @@ I'm a **third-year Information Systems student** at Cairo University (GPA: 3.5/4
 ---
 
 ## 🚀 Featured Projects
+
+### 📚 [Secure File Management & Distribution Portal](https://github.com/Haidy-Hosam/File-Management-System)
+> `Java` . `Spring boot` . `API` . `PostgreSQL` . `JPA` . `Angular` . `Quartz` . `.Net`
+
+- Encrypts every file with AES before it touches disk, verified with SHA-256 checksums
+- Enforces hard data isolation between departments
+- Role-based UI for Admins, Managers, and Employees
+- Real-time notifications and a drag-and-drop uploader that validates file type, MIME, and size
+
+Stack: Angular + TypeScript on the frontend, Spring Boot 3 + Spring Security on the backend, PostgreSQL for metadata (files stay encrypted on disk), JWT auth with RBAC underneath it all.
+
+Encryption and access control only solve part of the problem, files also shouldn't linger longer than they should. So we automated retention: a C# Windows Service (Quartz.NET) marks files as expired once their retention window closes, no manual tracking needed.
+
+What took the most iteration wasn't a UI feature — it was getting the encryption right, balancing secure key generation and storage with an app that still had to feel fast and simple.
+
+---
+
+### ⚽ [FitFinder](https://github.com/Ibrahim-Mohamed12/Fit-Finder)
+> `Asp.Net API` . `Sql Server` . `Clean Architecture` . `RBAC` . `Angular` . `JWT`
+Multi-role gym discovery & subscription platform backend. 40+ endpoints, 90/10 revenue-split payment engine, JWT + RBAC (Admin / Owner / Member), gym filtering, and owner & admin analytics.
+
+---
 
 ### 📚 [BookCase](https://github.com/Ibrahim-Mohamed12/BookCase) — Online Book Library & Management Platform
 > `ASP.NET Core MVC` · `C#` · `Entity Framework Core` · `SQL Server` · `Razor Views`
@@ -94,7 +117,7 @@ A collaborative team project — a job search platform for managing listings and
 
 | | |
 |---|---|
-| 🏛️ **Cairo University** — B.Sc. Information Systems & AI | 2023 – 2027 · GPA: 3.5/4.0 |
+| 🏛️ **Cairo University** — B.Sc. Information Systems & AI | 2023 – 2027 · GPA: 3.51/4.0 |
 | 🏅 **DEPI Full-Stack .NET Certification** — Ministry of MCIT | Jun – Dec 2025 |
 | 🏦 **Core Banking Internship** — ADIB Egypt | Aug – Sep 2025 |
 | 🛡️ **AML, Compliance & Sustainability** — ADIB Internal | 2025 |
