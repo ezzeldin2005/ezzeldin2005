@@ -1,7 +1,7 @@
 <div align="center">
 
 # Ezzeldin Omar
-### Full-Stack .NET Developer · CS & AI Student @ Cairo University
+### Full-Stack .NET & Angular Developer · CS & AI Student @ Cairo University
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/ezzeldin-omar-a65302291)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:ezzeldinomar7@gmail.com)
